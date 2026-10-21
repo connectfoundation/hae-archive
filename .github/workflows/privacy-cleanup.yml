@@ -1,0 +1,59 @@
+name: Clean historical personal information
+on:
+  workflow_dispatch:
+    inputs:
+      confirmation:
+        description: Type PURGE_HISTORY to replace history and remove old run records
+        required: true
+        type: string
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: privacy-history-cleanup
+  cancel-in-progress: false
+jobs:
+  clean:
+    if: inputs.confirmation == 'PURGE_HISTORY'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Preserve current site and replace historical references
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          original=d1b2fe92357593be6b7f770fcd77d6e70bb859ee
+          test "$(git rev-parse HEAD^)" = "$original"
+          test "$(git diff --name-only "$original" HEAD)" = ".github/workflows/privacy-cleanup.yml"
+          expected_head=$(git rev-parse HEAD)
+          expected_tag=$(git rev-parse refs/tags/demo-videos-2026-10-15)
+          git config user.name "connectfoundation"
+          git config user.email "connectfoundation@users.noreply.github.com"
+          clean_tree=$(git rev-parse HEAD^{tree})
+          clean_commit=$(printf 'Publish approved archive snapshot without historical personal information\n' | git commit-tree "$clean_tree")
+          printf 'CLEAN_COMMIT=%s\n' "$clean_commit" >> "$GITHUB_ENV"
+          git push --atomic --force-with-lease="refs/heads/main:$expected_head" --force-with-lease="refs/tags/demo-videos-2026-10-15:$expected_tag" origin "$clean_commit:refs/heads/main" "$clean_commit:refs/tags/demo-videos-2026-10-15"
+          test "$(git show -s --format=%P "$clean_commit")" = ""
+          gh api --method POST "repos/$GH_REPO/actions/workflows/deploy-pages.yml/dispatches" -f ref=main
+      - name: Remove obsolete workflow logs, artifacts and caches
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          CURRENT_RUN: ${{ github.run_id }}
+        run: |
+          set -euo pipefail
+          gh api --paginate "repos/$GH_REPO/actions/runs?per_page=100" --jq '.workflow_runs[] | select(.head_sha != env.CLEAN_COMMIT) | [.id,.name] | @tsv' > /tmp/old-runs
+          while IFS=$'\t' read -r run_id run_name; do
+            if [ "$run_id" != "$CURRENT_RUN" ]; then
+              status=$(gh api "repos/$GH_REPO/actions/runs/$run_id" --jq '.status')
+              if [ "$status" = "completed" ]; then
+                gh api --method DELETE "repos/$GH_REPO/actions/runs/$run_id"
+              fi
+            fi
+          done < /tmp/old-runs
+          gh cache delete --all --repo "$GH_REPO"
+

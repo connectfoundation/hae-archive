@@ -31,7 +31,8 @@ jobs:
           cp index.html app.js styles.css teams.json *.svg *.png _site/
           gh release download demo-videos-2026-10-15 --repo "$GITHUB_REPOSITORY" --pattern '*.mp4' --dir _site/videos
           if [ -d videos ]; then for video_file in videos/*.mp4; do [ "$video_file" = "videos/aihae_final06.mp4" ] || cp "$video_file" _site/videos/; done; fi
-          python3 -c 'import json,pathlib; root=pathlib.Path("_site"); teams=json.loads((root/"teams.json").read_text()); missing=[t["videoUrl"] for t in teams if t.get("videoUrl","").startswith("videos/") and not (root/t["videoUrl"]).is_file()]; assert not missing, missing'
+          gh release download archive-videos-20261026 --repo "$GITHUB_REPOSITORY" --pattern '*.mp4' --dir _site/videos --clobber
+          python3 -c 'import json,pathlib; root=pathlib.Path("_site"); teams=json.loads((root/"teams.json").read_text()); missing=[t[k] for t in teams for k in ("videoUrl","presentationVideoUrl") if t.get(k,"").startswith("videos/") and not (root/t[k]).is_file()]; assert not missing, missing'
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

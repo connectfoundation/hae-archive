@@ -119,7 +119,7 @@
         }
       ]
     },
-    "githubUrl": "https://github.com/aihae2026/aihae_final06",
+    "githubUrl": "https://github.com/aihae2026/ok-system",
     "id": "aihae_final06",
     "institution": "그래좋아 사회적협동조합",
     "institutionLinkType": "기관 소개",
@@ -175,7 +175,8 @@
     "sourceRow": 2,
     "videoUrl": "https://www.youtube.com/watch?v=d--4ZVDGa98",
     "year": 2026,
-    "presentationVideoUrl": "https://www.youtube.com/watch?v=YUrrJylRmxo"
+    "presentationVideoUrl": "https://www.youtube.com/watch?v=YUrrJylRmxo",
+    "openSourceUrl": "https://github.com/aihae2026/ok-system"
   },
   {
     "approach": "",
@@ -249,7 +250,7 @@
         }
       }
     },
-    "githubUrl": "https://github.com/aihae2026/aihae_final14",
+    "githubUrl": "https://github.com/aihae2026/nanum-daejang",
     "id": "aihae_final14",
     "institution": "사회복지법인 어린이재단",
     "institutionUrl": "https://www.chorogusan.or.kr/main.do",
@@ -304,7 +305,8 @@
     "sourceRow": 3,
     "videoUrl": "https://www.youtube.com/watch?v=RAI4LCyijY0",
     "year": 2026,
-    "presentationVideoUrl": "https://www.youtube.com/watch?v=QahuBDewtWA"
+    "presentationVideoUrl": "https://www.youtube.com/watch?v=QahuBDewtWA",
+    "openSourceUrl": "https://github.com/aihae2026/nanum-daejang"
   },
   {
     "approach": "",
@@ -375,7 +377,7 @@
         }
       }
     },
-    "githubUrl": "https://github.com/aihae2026/aihae_final28",
+    "githubUrl": "https://github.com/aihae2026/carecast",
     "id": "aihae_final28",
     "institution": "해뜨는마을",
     "institutionUrl": "http://ybsun.or.kr/",
@@ -414,7 +416,8 @@
     "solution": "",
     "sourceRow": 4,
     "videoUrl": "https://www.youtube.com/watch?v=9E2QioMEGas",
-    "year": 2026
+    "year": 2026,
+    "openSourceUrl": "https://github.com/aihae2026/carecast"
   },
   {
     "approach": "",
@@ -487,7 +490,7 @@
         }
       }
     },
-    "githubUrl": "https://github.com/aihae2026/aihae_final23",
+    "githubUrl": "https://github.com/aihae2026/bapsang-signal",
     "id": "aihae_final23",
     "institution": "춘천남부노인복지관",
     "institutionUrl": "http://www.ccnoin.or.kr/",
@@ -542,7 +545,8 @@
     "sourceRow": 5,
     "videoUrl": "https://www.youtube.com/watch?v=uAoREBbF-uQ",
     "year": 2026,
-    "presentationVideoUrl": "https://www.youtube.com/watch?v=wdn-MsxboxQ"
+    "presentationVideoUrl": "https://www.youtube.com/watch?v=wdn-MsxboxQ",
+    "openSourceUrl": "https://github.com/aihae2026/bapsang-signal"
   },
   {
     "approach": "",
@@ -611,7 +615,7 @@
         }
       }
     },
-    "githubUrl": "https://github.com/aihae2026/aihae_final09",
+    "githubUrl": "https://github.com/aihae2026/eungdabi-room",
     "id": "aihae_final09",
     "institution": "독거노인종합지원센터",
     "institutionUrl": "https://www.1661-2129.or.kr/",
@@ -681,7 +685,8 @@
     "sourceRow": 6,
     "videoUrl": "https://www.youtube.com/watch?v=FBJCB53sQu8",
     "year": 2026,
-    "presentationVideoUrl": "https://www.youtube.com/watch?v=B_wf0Qw_Gks"
+    "presentationVideoUrl": "https://www.youtube.com/watch?v=B_wf0Qw_Gks",
+    "openSourceUrl": "https://github.com/aihae2026/eungdabi-room"
   },
   {
     "approach": "",
@@ -740,7 +745,7 @@
         }
       }
     },
-    "githubUrl": "https://github.com/aihae2026/aihae_final19",
+    "githubUrl": "https://github.com/aihae2026/mesil-chat",
     "id": "aihae_final19",
     "institution": "실버메디컬복지센터 노인요양원&재가",
     "institutionUrl": "http://www.silvermedical.co.kr/",
@@ -789,7 +794,8 @@
     "solution": "",
     "sourceRow": 7,
     "videoUrl": "https://www.youtube.com/watch?v=v5qM0XIMhsY",
-    "year": 2026
+    "year": 2026,
+    "openSourceUrl": "https://github.com/aihae2026/mesil-chat"
   },
   {
     "approach": "",
@@ -975,7 +981,7 @@
         }
       }
     },
-    "githubUrl": "https://github.com/aihae2026/aihae_final05",
+    "githubUrl": "https://github.com/aihae2026/scale-scoring",
     "id": "aihae_final05",
     "institution": "경기의왕아동보호전문기관",
     "institutionUrl": "https://gguiwang.gcps.or.kr/",
@@ -1025,7 +1031,8 @@
     "sourceRow": 9,
     "videoUrl": "https://www.youtube.com/watch?v=PnM1vpof0EA",
     "year": 2026,
-    "presentationVideoUrl": "https://www.youtube.com/watch?v=TFEGY98W0Bo"
+    "presentationVideoUrl": "https://www.youtube.com/watch?v=TFEGY98W0Bo",
+    "openSourceUrl": "https://github.com/aihae2026/scale-scoring"
   },
   {
     "approach": "",
@@ -1222,7 +1229,7 @@
         }
       }
     },
-    "githubUrl": "https://github.com/aihae2026/aihae_final15",
+    "githubUrl": "https://github.com/aihae2026/yeolmae-chatbot",
     "id": "aihae_final15",
     "institution": "사회복지법인 열매나눔재단",
     "institutionUrl": "https://www.merryyear.org/",
@@ -1271,7 +1278,8 @@
     "solution": "",
     "sourceRow": 11,
     "videoUrl": "https://www.youtube.com/watch?v=cYWvUgdiPHY",
-    "year": 2026
+    "year": 2026,
+    "openSourceUrl": "https://github.com/aihae2026/yeolmae-chatbot"
   },
   {
     "approach": "",
@@ -1475,7 +1483,7 @@
         }
       }
     },
-    "githubUrl": "https://github.com/aihae2026/aihae_final18",
+    "githubUrl": "https://github.com/aihae2026/case-management-dashboard",
     "id": "aihae_final18",
     "institution": "시립중랑노인종합복지관",
     "institutionUrl": "http://www.jnnoin.com/",
@@ -1534,7 +1542,8 @@
     "solution": "",
     "sourceRow": 13,
     "videoUrl": "https://www.youtube.com/watch?v=5T7oXYGbAuA",
-    "year": 2026
+    "year": 2026,
+    "openSourceUrl": "https://github.com/aihae2026/case-management-dashboard"
   },
   {
     "approach": "",
@@ -1586,7 +1595,7 @@
         }
       }
     },
-    "githubUrl": "https://github.com/aihae2026/aihae_final27",
+    "githubUrl": "https://github.com/aihae2026/maeum-ansim",
     "id": "aihae_final27",
     "institution": "함박종합사회복지관",
     "institutionUrl": "https://www.hambak.or.kr/",
@@ -1630,7 +1639,8 @@
     "solution": "",
     "sourceRow": 14,
     "videoUrl": "https://www.youtube.com/watch?v=GOsnsJnxDX8",
-    "year": 2026
+    "year": 2026,
+    "openSourceUrl": "https://github.com/aihae2026/maeum-ansim"
   },
   {
     "approach": "",
@@ -1705,7 +1715,7 @@
         }
       }
     },
-    "githubUrl": "https://github.com/aihae2026/aihae_final20",
+    "githubUrl": "https://github.com/aihae2026/welllink",
     "id": "aihae_final20",
     "institution": "강남구립 역삼노인복지관",
     "institutionUrl": "https://www.gangnam.go.kr/office/ysenior/main.do",
@@ -1770,7 +1780,8 @@
     "sourceRow": 15,
     "videoUrl": "https://www.youtube.com/watch?v=bkQi8BqjvnQ",
     "year": 2026,
-    "presentationVideoUrl": "https://www.youtube.com/watch?v=jL-sngBfd1E"
+    "presentationVideoUrl": "https://www.youtube.com/watch?v=jL-sngBfd1E",
+    "openSourceUrl": "https://github.com/aihae2026/welllink"
   },
   {
     "approach": "",
@@ -1845,7 +1856,7 @@
         }
       }
     },
-    "githubUrl": "https://github.com/aihae2026/aihae_final08",
+    "githubUrl": "https://github.com/aihae2026/bokji-f5",
     "id": "aihae_final08",
     "institution": "도봉장애인종합복지관",
     "institutionUrl": "http://www.dbwc2017.or.kr/",
@@ -1899,6 +1910,7 @@
     "sourceRow": 16,
     "videoUrl": "https://www.youtube.com/watch?v=6ReuYyWLExg",
     "year": 2026,
-    "presentationVideoUrl": "https://www.youtube.com/watch?v=nyn-Xd2UGos"
+    "presentationVideoUrl": "https://www.youtube.com/watch?v=nyn-Xd2UGos",
+    "openSourceUrl": "https://github.com/aihae2026/bokji-f5"
   }
 ]

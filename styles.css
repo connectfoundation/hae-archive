@@ -133,3 +133,6 @@ body{background-color:#fff9f0;background-image:linear-gradient(135deg,#fff8ed 0%
 .member-heading strong{min-height:1.5em}
 .member-heading span{min-height:1.5em}
 @media(min-width:641px){.team-member{display:grid;grid-template-rows:subgrid;grid-row:span 2;row-gap:12px}.member-role{margin-top:0}}
+
+/* Public open-source repository links. */
+.detail-opensource{display:flex;margin-top:22px}.detail-opensource .card-github{font-size:17px;gap:9px;min-height:44px;color:#38493e}.detail-opensource .card-github:hover{color:#cc581e}

@@ -173,9 +173,9 @@
     "short": "지역아동센터의 흩어진 기록을 모아, 아동의 변화와 숨은 자원을 들여다보는 통합 관리 시스템",
     "solution": "",
     "sourceRow": 2,
-    "videoUrl": "videos/aihae_final06.mp4",
+    "videoUrl": "https://www.youtube.com/watch?v=d--4ZVDGa98",
     "year": 2026,
-    "presentationVideoUrl": "videos/aihae_final06_presentation.mp4"
+    "presentationVideoUrl": "https://www.youtube.com/watch?v=YUrrJylRmxo"
   },
   {
     "approach": "",
@@ -302,9 +302,9 @@
     "short": "후원자와 배분기관을 신청 링크로 연결해 후원물품 신청서와 증빙을 접수하고, AI 서류 확인과 처리 이력까지 한곳에서 관리하는 플랫폼",
     "solution": "",
     "sourceRow": 3,
-    "videoUrl": "videos/aihae_final14.mp4",
+    "videoUrl": "https://www.youtube.com/watch?v=RAI4LCyijY0",
     "year": 2026,
-    "presentationVideoUrl": "videos/aihae_final14_presentation.mp4"
+    "presentationVideoUrl": "https://www.youtube.com/watch?v=QahuBDewtWA"
   },
   {
     "approach": "",
@@ -413,7 +413,7 @@
     "short": "담당자가 방송실에 가지 않고도 시설 내 어디서든 안내 방송을 내보낼 수 있고, 정해진 일과 방송을 자동으로 송출하는 AI 방송 시스템",
     "solution": "",
     "sourceRow": 4,
-    "videoUrl": "videos/aihae_final28.mp4",
+    "videoUrl": "https://www.youtube.com/watch?v=9E2QioMEGas",
     "year": 2026
   },
   {
@@ -540,9 +540,9 @@
     "short": "어르신의 식사 출석 기록에서 평소와 다른 패턴을 찾아, 담당자가 안부 확인이 필요한 어르신을 살필 수 있도록 돕는 서비스",
     "solution": "",
     "sourceRow": 5,
-    "videoUrl": "videos/aihae_final23.mp4",
+    "videoUrl": "https://www.youtube.com/watch?v=uAoREBbF-uQ",
     "year": 2026,
-    "presentationVideoUrl": "videos/aihae_final23_presentation.mp4"
+    "presentationVideoUrl": "https://www.youtube.com/watch?v=wdn-MsxboxQ"
   },
   {
     "approach": "",
@@ -679,9 +679,9 @@
     "short": "중앙·광역·수행기관·현장 조사자가 한 시스템에서 설문 응답을 모으고, 기관별 제출 현황과 통계를 함께 확인하는 플랫폼",
     "solution": "",
     "sourceRow": 6,
-    "videoUrl": "videos/aihae_final09.mp4",
+    "videoUrl": "https://www.youtube.com/watch?v=FBJCB53sQu8",
     "year": 2026,
-    "presentationVideoUrl": "videos/aihae_final09_presentation.mp4"
+    "presentationVideoUrl": "https://www.youtube.com/watch?v=B_wf0Qw_Gks"
   },
   {
     "approach": "",
@@ -747,8 +747,8 @@
     "intro": "실버메디컬복지센터 노인요양원&재가의 AI 챌린지 해 수상 프로젝트입니다",
     "members": [
       {
-        "name": "",
-        "position": "팀장",
+        "name": "연규항",
+        "position": "팀장 · 시설장",
         "role": "현장 문제 정의, 제품 기획, AI 개발 도구를 활용한 직접 개발, 기능 확인과 최종 검수"
       },
       {
@@ -788,7 +788,7 @@
     "short": "직원이 채팅·사진·손글씨·음성으로 남긴 현장 보고를 AI가 읽고 정리해, 필요한 내용을 찾아 업무에 활용하도록 돕는 서비스",
     "solution": "",
     "sourceRow": 7,
-    "videoUrl": "videos/aihae_final19.mp4",
+    "videoUrl": "https://www.youtube.com/watch?v=v5qM0XIMhsY",
     "year": 2026
   },
   {
@@ -904,9 +904,9 @@
     "short": "장기기증인이 살아온 삶의 기록부터, 그의 생명을 이어받은 이들의 목소리, 그리고 그를 기억하는 사람들의 마음까지 한 곳에서 만날 수 있는 디지털 아카이브",
     "solution": "",
     "sourceRow": 8,
-    "videoUrl": "videos/aihae_final03.mp4",
+    "videoUrl": "https://www.youtube.com/watch?v=YwoGWs-G1-4",
     "year": 2026,
-    "presentationVideoUrl": "videos/aihae_final03_presentation.mp4"
+    "presentationVideoUrl": "https://www.youtube.com/watch?v=4Q6fEU1JFzY"
   },
   {
     "approach": "",
@@ -1023,9 +1023,9 @@
     "short": "종이 척도 검사지를 촬영하거나 스캔하면 문항과 응답을 자동으로 읽고 채점해, 업무 효율성을 높이고 채점 오류를 줄여 상담 및 방문 업무에 시간을 더 쓸 수 있도록 하는 솔루션",
     "solution": "",
     "sourceRow": 9,
-    "videoUrl": "videos/aihae_final05.mp4",
+    "videoUrl": "https://www.youtube.com/watch?v=PnM1vpof0EA",
     "year": 2026,
-    "presentationVideoUrl": "videos/aihae_final05_presentation.mp4"
+    "presentationVideoUrl": "https://www.youtube.com/watch?v=TFEGY98W0Bo"
   },
   {
     "approach": "",
@@ -1147,7 +1147,7 @@
     "short": "결혼이민여성 강사의 다문화 이해교육 강의 녹음을 글로 옮기고 분석해, 강의에 대한 피드백 초안을 작성하고 공유하는 AI 솔루션",
     "solution": "",
     "sourceRow": 10,
-    "videoUrl": "videos/aihae_final16.mp4",
+    "videoUrl": "https://www.youtube.com/watch?v=1UHQKA4bLYg",
     "year": 2026
   },
   {
@@ -1270,7 +1270,7 @@
     "short": "이용자가 지원 사업에 관해 질문하면, 기관이 등록한 사업자료에서 관련 내용을 찾아 답하는 AI 챗봇",
     "solution": "",
     "sourceRow": 11,
-    "videoUrl": "videos/aihae_final15.mp4",
+    "videoUrl": "https://www.youtube.com/watch?v=cYWvUgdiPHY",
     "year": 2026
   },
   {
@@ -1403,7 +1403,7 @@
     "short": "수업 시작 후 일정 시간이 지나도 출석하지 않은 어르신에게 결석 안내 문자를 보내고, 회신과 전화로 안부 확인이 필요한 상황인지 살피는 솔루션",
     "solution": "",
     "sourceRow": 12,
-    "videoUrl": "videos/aihae_final21.mp4",
+    "videoUrl": "https://www.youtube.com/watch?v=zKgbyS1vh_4",
     "year": 2026
   },
   {
@@ -1478,7 +1478,7 @@
     "githubUrl": "https://github.com/aihae2026/aihae_final18",
     "id": "aihae_final18",
     "institution": "시립중랑노인종합복지관",
-    "institutionUrl": "http://www.eorsin.com/",
+    "institutionUrl": "http://www.jnnoin.com/",
     "intro": "시립중랑노인종합복지관의 AI 챌린지 해 수상 프로젝트입니다",
     "members": [
       {
@@ -1533,7 +1533,7 @@
     "short": "쌓여 있는 어르신의 사례관리 기록을 한눈에 살펴보고, 지원이 시급한 어르신에게 필요한 자원을 연결하도록 돕는 솔루션",
     "solution": "",
     "sourceRow": 13,
-    "videoUrl": "videos/aihae_final18.mp4",
+    "videoUrl": "https://www.youtube.com/watch?v=5T7oXYGbAuA",
     "year": 2026
   },
   {
@@ -1629,7 +1629,7 @@
     "short": "AI가 상담 내용을 분석하여 위험 신호를 감지하거나 상담자가 직접 호출을 요청하면 동료에게 위기 상황을 알리는 위기 대응 지원 솔루션",
     "solution": "",
     "sourceRow": 14,
-    "videoUrl": "videos/aihae_final27.mp4",
+    "videoUrl": "https://www.youtube.com/watch?v=GOsnsJnxDX8",
     "year": 2026
   },
   {
@@ -1768,9 +1768,9 @@
     "short": "복지관의 프로그램 운영 데이터를 한곳에 모아, 기록한 내용을 관리하고 실적 집계·보고·평가까지 이어서 처리하는 업무지원 시스템",
     "solution": "",
     "sourceRow": 15,
-    "videoUrl": "videos/aihae_final20.mp4",
+    "videoUrl": "https://www.youtube.com/watch?v=bkQi8BqjvnQ",
     "year": 2026,
-    "presentationVideoUrl": "videos/aihae_final20_presentation.mp4"
+    "presentationVideoUrl": "https://www.youtube.com/watch?v=jL-sngBfd1E"
   },
   {
     "approach": "",
@@ -1897,8 +1897,8 @@
     "short": "여러 곳에 흩어진 복지정보와 바뀐 정책을 AI가 찾아 정리하면, 실무자가 출처와 근거를 확인해 업무에 필요한 내용을 반영하는 솔루션",
     "solution": "",
     "sourceRow": 16,
-    "videoUrl": "videos/aihae_final08.mp4",
+    "videoUrl": "https://www.youtube.com/watch?v=6ReuYyWLExg",
     "year": 2026,
-    "presentationVideoUrl": "videos/aihae_final08_presentation.mp4"
+    "presentationVideoUrl": "https://www.youtube.com/watch?v=nyn-Xd2UGos"
   }
 ]

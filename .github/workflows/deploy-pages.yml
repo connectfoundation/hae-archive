@@ -1,19 +1,15 @@
-name: Deploy archive with demo videos
-
+name: Deploy archive
 on:
   push:
     branches: [main]
   workflow_dispatch:
-
 permissions:
   contents: read
   pages: write
   id-token: write
-
 concurrency:
   group: pages
   cancel-in-progress: false
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -23,20 +19,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
-      - name: Prepare site and same-origin videos
-        env:
-          GH_TOKEN: ${{ github.token }}
+      - name: Prepare site
         run: |
-          mkdir -p _site/videos
+          mkdir -p _site
           cp index.html app.js styles.css teams.json *.svg *.png _site/
-          gh release download demo-videos-2026-10-15 --repo "$GITHUB_REPOSITORY" --pattern '*.mp4' --dir _site/videos
-          if [ -d videos ]; then for video_file in videos/*.mp4; do [ "$video_file" = "videos/aihae_final06.mp4" ] || cp "$video_file" _site/videos/; done; fi
-          gh release download archive-videos-20261026 --repo "$GITHUB_REPOSITORY" --pattern '*.mp4' --dir _site/videos --clobber
-          python3 -c 'import json,pathlib; root=pathlib.Path("_site"); teams=json.loads((root/"teams.json").read_text()); missing=[t[k] for t in teams for k in ("videoUrl","presentationVideoUrl") if t.get(k,"").startswith("videos/") and not (root/t[k]).is_file()]; assert not missing, missing'
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
-
